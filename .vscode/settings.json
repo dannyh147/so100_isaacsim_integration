@@ -1,5 +1,17 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
     "python-envs.defaultPackageManager": "ms-python.python:conda",
-    "python-envs.pythonProjects": []
+    "python-envs.pythonProjects": [],
+    "python.defaultInterpreterPath": "/home/integration/isaacsim/python.sh",
+    "python.analysis.extraPaths": [
+        "/home/integration/isaacsim/exts",
+        "/home/integration/isaacsim/extscore",
+        "/home/integration/isaacsim/extscache",
+        "/home/integration/isaacsim/extsPhysics",
+        "/home/integration/isaacsim/kit/exts",
+        "/home/integration/isaacsim/kit/extscore"
+    ],
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    }
 }
