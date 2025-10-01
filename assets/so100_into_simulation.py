@@ -40,6 +40,8 @@ target_pose = [0, 0, 0.0, 0, 0.0, 0]
 zero_pose   = [ 0.0, 0.0, 0.0,  0.0, 0.0, 0.0] #the first value (in radians) is the first joint position, the second value is the second joint position, and so on.
 arm.set_joint_positions([target_pose])
 
+#/home/integration/isaacsim/standalone_examples/tutorials/assets/so100_into_simulation.py
+
 
 # --- Main loop keeps the app alive until you close the window ---
 while simulation_app.is_running():          #################################### <-- critical line ########################################################
